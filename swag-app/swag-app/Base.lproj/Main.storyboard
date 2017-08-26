@@ -28,19 +28,22 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QuX-vN-iW9">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="QuX-vN-iW9">
                                 <rect key="frame" x="0.0" y="72.5" width="375" height="530.5"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="137" id="ave-wu-Zbc" customClass="CategoryCell" customModule="swag_app" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CategoryCell" rowHeight="137" id="ave-wu-Zbc" customClass="CategoryCell" customModule="swag_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="137"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ave-wu-Zbc" id="kZd-u9-eC1">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="136.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="137"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="digital" translatesAutoresizingMaskIntoConstraints="NO" id="mX6-dJ-ouc">
-                                                    <rect key="frame" x="0.0" y="0.0" width="375" height="136"/>
+                                                    <rect key="frame" x="0.0" y="3" width="375" height="130.5"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="130" id="i1B-83-I8X"/>
+                                                    </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOODIES" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wqJ-yG-Uea">
                                                     <rect key="frame" x="44" y="47" width="287" height="42"/>
@@ -55,8 +58,8 @@
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="mX6-dJ-ouc" firstAttribute="leading" secondItem="kZd-u9-eC1" secondAttribute="leading" id="Bsa-Zp-czs"/>
-                                                <constraint firstItem="mX6-dJ-ouc" firstAttribute="top" secondItem="kZd-u9-eC1" secondAttribute="top" id="XFq-zA-g8l"/>
-                                                <constraint firstAttribute="bottom" secondItem="mX6-dJ-ouc" secondAttribute="bottom" id="rZh-Co-6QE"/>
+                                                <constraint firstAttribute="bottom" secondItem="mX6-dJ-ouc" secondAttribute="bottom" constant="3" id="IuI-A7-djX"/>
+                                                <constraint firstItem="mX6-dJ-ouc" firstAttribute="top" secondItem="kZd-u9-eC1" secondAttribute="top" constant="3" id="rrh-4u-4dv"/>
                                                 <constraint firstAttribute="trailing" secondItem="mX6-dJ-ouc" secondAttribute="trailing" id="sJs-WX-12H"/>
                                                 <constraint firstItem="wqJ-yG-Uea" firstAttribute="centerY" secondItem="kZd-u9-eC1" secondAttribute="centerY" id="xAe-zg-YxN"/>
                                                 <constraint firstItem="wqJ-yG-Uea" firstAttribute="centerX" secondItem="kZd-u9-eC1" secondAttribute="centerX" id="xVd-Ke-pBl"/>
