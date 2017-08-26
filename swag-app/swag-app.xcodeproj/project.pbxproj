@@ -10,6 +10,7 @@
 		4389EA101F5150FA00782069 /* CategoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389EA0F1F5150FA00782069 /* CategoryCell.swift */; };
 		4389EA121F515BA600782069 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389EA111F515BA600782069 /* Category.swift */; };
 		4389EA151F516D7A00782069 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389EA141F516D7A00782069 /* DataService.swift */; };
+		4389EA171F51B13500782069 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4389EA161F51B13500782069 /* ProductCell.swift */; };
 		4396CA1B1F50689F00066319 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396CA1A1F50689F00066319 /* AppDelegate.swift */; };
 		4396CA1D1F50689F00066319 /* CategoriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4396CA1C1F50689F00066319 /* CategoriesVC.swift */; };
 		4396CA201F50689F00066319 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4396CA1E1F50689F00066319 /* Main.storyboard */; };
@@ -40,6 +41,7 @@
 		4389EA0F1F5150FA00782069 /* CategoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryCell.swift; sourceTree = "<group>"; };
 		4389EA111F515BA600782069 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		4389EA141F516D7A00782069 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		4389EA161F51B13500782069 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		4396CA171F50689F00066319 /* swag-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swag-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4396CA1A1F50689F00066319 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4396CA1C1F50689F00066319 /* CategoriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesVC.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				4389EA0F1F5150FA00782069 /* CategoryCell.swift */,
+				4389EA161F51B13500782069 /* ProductCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 				4396CA1D1F50689F00066319 /* CategoriesVC.swift in Sources */,
 				4396CA1B1F50689F00066319 /* AppDelegate.swift in Sources */,
 				4389EA101F5150FA00782069 /* CategoryCell.swift in Sources */,
+				4389EA171F51B13500782069 /* ProductCell.swift in Sources */,
 				4389EA121F515BA600782069 /* Category.swift in Sources */,
 				4389EA151F516D7A00782069 /* DataService.swift in Sources */,
 			);
